@@ -1,5 +1,5 @@
 {
-  "name": "find-anchor",
+  "name": "acquire-anchor",
   "version": "1.0.0",
   "description": "Given a DOM node, find the nearest anchor node.",
   "main": "index.js",
@@ -9,9 +9,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/foiseworth/external-link.git"
+    "url": "git+https://github.com/foiseworth/acquire-anchor.git"
   },
   "keywords": [
+    "find",
     "anchor",
     "link",
     "href",
@@ -25,9 +26,9 @@
   "author": "Andrew Herrington",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/foiseworth/external-link/issues"
+    "url": "https://github.com/foiseworth/acquire-anchor/issues"
   },
-  "homepage": "https://github.com/foiseworth/external-link#readme",
+  "homepage": "https://github.com/foiseworth/acquire-anchor#readme",
   "devDependencies": {
     "coveralls": "^2.11.3",
     "eslint": "^0.24.1",

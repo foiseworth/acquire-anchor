@@ -1,6 +1,6 @@
 'use strict';
 
-function findAnchor(node) {
+function acquireAnchor(node) {
   while (node.nodeName.toLowerCase() !== 'a') {
     if (!node.parentNode) return false;
     node = node.parentNode;
@@ -8,4 +8,4 @@ function findAnchor(node) {
   return node;
 }
 
-module.exports = findAnchor;
+module.exports = acquireAnchor;
